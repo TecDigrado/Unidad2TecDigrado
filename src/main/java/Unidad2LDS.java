@@ -635,22 +635,25 @@ public class Unidad2LDS {
                         case 2:
                             limpiarPantalla();
                             System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("|    SOLUCIONES DE LA ECUACION DE SCHRÖDINGER |");
                             System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
+                            System.out.println("|La ecuación de Schrödinger describe matemáticamente el comportamiento del electrón en el átomo.             |");
+                            System.out.println("|Sus soluciones son las funciones de onda ψ y sus valores permitidos dan los orbitales y los .|");
+                            System.out.println("|niveles de energía                        |");
                             System.out.println("=======================================");
                             esperarTecla();
                             break;
                         case 3:
                             limpiarPantalla();
                             System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("|                          Números cuánticos   |");
                             System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
+                            System.out.println("|Los número cuánticos son un conjunto de valores numéricos que describen               |");
+                            System.out.println("|el estado cuántico único y completo de un electrón dentro de un átomo               |");
+                            System.out.println("|1.-Número cuántico principal (n)|");
+                            System.out.println("|2.-Número cuántico del momento angular (l)|");
+                            System.out.println("|3.-Número cuántico magnético (m)|");
+                            System.out.println("|4.-Número cuántico de espin (ms)|");
                             System.out.println("=======================================");
                             esperarTecla();
                             break;
