@@ -602,19 +602,18 @@ public class Unidad2LDS {
                     System.out.println("| 1.  Principio de Incertidumbre de Heisenberg   |");
                     System.out.println("| 2.  Soluciones de la ecuación de Schrödinger   |");
                     System.out.println("| 3.  Números cuánticos                          |");
-                    System.out.println("| 4.  Cuarto número cuántico (Spin)              |");
-                    System.out.println("| 5.  Número cuántico principal n                |");
-                    System.out.println("| 6.  Valores posibles de n                      |");
-                    System.out.println("| 7.  Número cuántico secundario l               |");
-                    System.out.println("| 8.  Valores de l                               |");
-                    System.out.println("| 9.  Letras asignadas a l                       |");
-                    System.out.println("| 10. Forma de los orbitales s y p               |");
-                    System.out.println("| 11. Número cuántico magnético m                |");
-                    System.out.println("| 12. Valores de m                               |");
-                    System.out.println("| 13. Número cuántico spin ms                    |");
-                    System.out.println("| 14. Valores de ms                              |");
-                    System.out.println("| 15. ¿Qué es un orbital?                        |");
-                    System.out.println("| 16. Diferencia entre nivel, subnivel y orbital |");
+                    System.out.println("| 4.  Número cuántico principal n                |");
+                    System.out.println("| 5.  Valores posibles de n                      |");
+                    System.out.println("| 6.  Número cuántico secundario l               |");
+                    System.out.println("| 7.  Valores de l                               |");
+                    System.out.println("| 8.  Letras asignadas a l                       |");
+                    System.out.println("| 9.  Forma de los orbitales s y p               |");
+                    System.out.println("| 10. Número cuántico magnético m                |");
+                    System.out.println("| 11. Valores de m                               |");
+                    System.out.println("| 12. Número cuántico spin ms                    |");
+                    System.out.println("| 13. Valores de ms                              |");
+                    System.out.println("| 14. ¿Qué es un orbital?                        |");
+                    System.out.println("| 15. Diferencia entre nivel, subnivel y orbital |");
                     System.out.println("| 0.  Regresar al menu principal                 |");
                     System.out.println("--------------------------------------------------");
                     System.out.println("Selecciona una opción:             ");
@@ -634,170 +633,177 @@ public class Unidad2LDS {
                             break;
                         case 2:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    SOLUCIONES DE LA ECUACION DE SCHRÖDINGER |");
-                            System.out.println("=======================================");
+                            System.out.println("==============================================================================================================");
+                            System.out.println("|                              SOLUCIONES DE LA ECUACION DE SCHRÖDINGER                                      |");
+                            System.out.println("==============================================================================================================");
                             System.out.println("|La ecuación de Schrödinger describe matemáticamente el comportamiento del electrón en el átomo.             |");
-                            System.out.println("|Sus soluciones son las funciones de onda ψ y sus valores permitidos dan los orbitales y los .|");
-                            System.out.println("|niveles de energía                        |");
-                            System.out.println("=======================================");
+                            System.out.println("|Sus soluciones son las funciones de onda ψ y sus valores permitidos dan los orbitales y los .               |");
+                            System.out.println("|niveles de energía                                                                                          |");
+                            System.out.println("==============================================================================================================");
                             esperarTecla();
                             break;
                         case 3:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|                          Números cuánticos   |");
-                            System.out.println("=======================================");
+                            System.out.println("========================================================================================");
+                            System.out.println("|                                      Números cuánticos                               |");
+                            System.out.println("========================================================================================");
                             System.out.println("|Los número cuánticos son un conjunto de valores numéricos que describen               |");
-                            System.out.println("|el estado cuántico único y completo de un electrón dentro de un átomo               |");
-                            System.out.println("|1.-Número cuántico principal (n)|");
-                            System.out.println("|2.-Número cuántico del momento angular (l)|");
-                            System.out.println("|3.-Número cuántico magnético (m)|");
-                            System.out.println("|4.-Número cuántico de espin (ms)|");
-                            System.out.println("=======================================");
+                            System.out.println("|el estado cuántico único y completo de un electrón dentro de un átomo                 |");
+                            System.out.println("|1.-Número cuántico principal (n)                                                      |");
+                            System.out.println("|2.-Número cuántico del momento angular (l)                                            |");
+                            System.out.println("|3.-Número cuántico magnético (m)                                                      |");
+                            System.out.println("|4.-Número cuántico de espin (ms)                                                      |");
+                            System.out.println("========================================================================================");
                             esperarTecla();
                             break;
                         case 4:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("=========================================================================================================================");
+                            System.out.println("|                                                Número cuántico principal 'n'                                          |");
+                            System.out.println("=========================================================================================================================");
+                            System.out.println("|El número cuántico principal n es un entero positivo que determina el nivel de energía del electrón en el átomo        |");
+                            System.out.println("|y establece el tamaño del orbital.                                                                                     |");
+                            System.out.println("=========================================================================================================================");
                             esperarTecla();
                             break;
                         case 5:
                             limpiarPantalla();
                             System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
+                            System.out.println("|        Valores posibles de 'n'      |");
                             System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
+                            System.out.println("|Sus valores permitidos son:          |");
+                            System.out.println("|             n=1,2,3,4,…             |");
+                            System.out.println("|                                     |");
                             System.out.println("=======================================");
                             esperarTecla();
                             break;
                         case 6:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("=============================================================================================");
+                            System.out.println("|                                Número cuántico secundario 'l'                             |");
+                            System.out.println("=============================================================================================");
+                            System.out.println("|El número cuántico del momento angular l indica la forma del orbital y está asociado       |");
+                            System.out.println("|al momento angular orbital del electrón.                                                   |");
+                            System.out.println("=============================================================================================");
                             esperarTecla();
                             break;
                         case 7:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("====================================================================");
+                            System.out.println("|                       Valores posibles de 'l'                    |");
+                            System.out.println("====================================================================");
+                            System.out.println("|Para un valor dado de n, sus valores permitidos son:              |");
+                            System.out.println("|                          l=0,1,2,…,(n−1)                         |");
+                            System.out.println("====================================================================");
                             esperarTecla();
                             break;
                         case 8:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("=================================================================================================");
+                            System.out.println("|                                       Letras asignadas a 'l'                                  |");
+                            System.out.println("=================================================================================================");
+                            System.out.println("|La asignación formal entre el número cuántico del momento angular l y las letras usadas        |");
+                            System.out.println("|para nombrar los subniveles:                                                                   |");
+                            System.out.println("|               l = 0 → s                                                                       |");
+                            System.out.println("|               l = 1 → p                                                                       |");
+                            System.out.println("|               l = 2 → d                                                                       |");
+                            System.out.println("|               l = 3 → f                                                                       |");
+                            System.out.println("=================================================================================================");
                             esperarTecla();
                             break;
                         case 9:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("=======================================================================================================================");
+                            System.out.println("|                                           Forma de los orbitales 's' y 'p'                                          |");
+                            System.out.println("=======================================================================================================================");
+                            System.out.println("|Orbital s:                                                                                                           |");
+                            System.out.println("| Los orbitales s son regiones de probabilidad con simetría esférica alrededor del núcleo. Su densidad de             |");
+                            System.out.println("| probabilidad depende únicamente de la distancia al núcleo y no presenta nodos angulares.                            |");
+                            System.out.println("|_____________________________________________________________________________________________________________________|");
+                            System.out.println("|Orbital p:                                                                                                           |");
+                            System.out.println("|Los orbitales p tienen una forma bilobular constituida por dos regiones alargadas situadas a lados opuestos          |");
+                            System.out.println("|del núcleo, separadas por un plano nodal que pasa por el núcleo. Cada orbital p se orienta en uno de los             |");
+                            System.out.println("|tres ejes cartesianos: px, py o pz.                                                                                  |");
+                            System.out.println("=======================================================================================================================");
                             esperarTecla();
                             break;
                         case 10:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("==========================================================================================================================");
+                            System.out.println("|                                            Número cuántico magnético 'm'                                               |");
+                            System.out.println("==========================================================================================================================");
+                            System.out.println("|El número cuántico magnético mₗ especifica la orientación espacial del orbital asociado a un valor dado del              |");
+                            System.out.println("|número cuántico del momento angular l. Sus valores permitidos son todos los enteros comprendidos entre −l y +l          |");
+                            System.out.println("==========================================================================================================================");
                             esperarTecla();
                             break;
                         case 11:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("=====================================================================================================================");
+                            System.out.println("|                                              Valores posibles de 'm'                                              |");
+                            System.out.println("=====================================================================================================================");
+                            System.out.println("|Para un valor dado el número cuántico del momento angular 'l', el numero cuántico magnético ml puede               |");
+                            System.out.println("|tomar todos los valores enteros desde -l hasta +l. Es decir:                                                       |");
+                            System.out.println("|                                      ml\u200B=−l,(−l+1),…,0,…,(l−1),l                                             |");
+                            System.out.println("=====================================================================================================================");
                             esperarTecla();
                             break;
                         case 12:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("================================================================================================================");
+                            System.out.println("|                                      Cuarto número cuántico (Spin)                                           |");
+                            System.out.println("================================================================================================================");
+                            System.out.println("|El cuarto número cuántico es el número cuántico de espín, una especie de firma íntima del electrón            |");
+                            System.out.println("|, como un pequeño remolino interno que marca si gira hacia una dirección o hacia la contraria.                |");
+                            System.out.println("================================================================================================================");
+                            esperarTecla();
                             esperarTecla();
                             break;
                         case 13:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("===============================================");
+                            System.out.println("|           Valores posibles de 'ms'          |");
+                            System.out.println("===============================================");
+                            System.out.println("| Los valores permitidos son únicamente:      |");
+                            System.out.println("|  ms=  +½ y −½                               |");
+                            System.out.println("===============================================");
                             esperarTecla();
                             break;
                         case 14:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("==========================================================================================================");
+                            System.out.println("|                                          ¿Qué es un orbital?                                           |");
+                            System.out.println("==========================================================================================================");
+                            System.out.println("|Un orbital es una función matemática derivada de la solución de la ecuación de Schrödinger              |");
+                            System.out.println("|que describe la distribución de probabilidad de encontrar un electrón en una región específica          |");
+                            System.out.println("|del espacio alrededor del núcleo de un átomo. Cada orbital se caracteriza por un conjunto de            |");
+                            System.out.println("|números cuánticos y posee una energía y forma determinadas.                                             |");
+                            System.out.println("==========================================================================================================");
                             esperarTecla();
                             break;
                         case 15:
                             limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
-                            esperarTecla();
-                            break;
-                        case 16:
-                            limpiarPantalla();
-                            System.out.println("=======================================");
-                            System.out.println("|    Principio de Incertidumbre de Heisenberg    |");
-                            System.out.println("=======================================");
-                            System.out.println("|No se puede conocer simultáneamente posición y momento del electrón.                |");
-                            System.out.println("|             |");
-                            System.out.println("|                         |");
-                            System.out.println("=======================================");
+                            System.out.println("==================================================================================================================================");
+                            System.out.println("|                                              Diferencia entre nivel, subnivel y orbital                                        |");
+                            System.out.println("==================================================================================================================================");
+                            System.out.println("|1. Diferencia entre nivel y subnivel                                                                                            |");
+                            System.out.println("| -Nivel (n): clasifica la energía general del electrón; es la división más amplia.                                              |");
+                            System.out.println("| -Subnivel (l): es una subdivisión dentro de un nivel; especifica la forma de los orbitales.                                    |");
+                            System.out.println("|     **Diferencia clave: el nivel indica qué tanta energía tiene el electrón, mientras que el subnivel indica cómo              |");
+                            System.out.println("|                                    es la forma de la región donde puede estar.**                                               |");
+                            System.out.println("|________________________________________________________________________________________________________________________________|");
+                            System.out.println("|2. Diferencia entre subnivel y orbital                                                                                          |");
+                            System.out.println("| -Subnivel (s, p, d, f): grupo de orbitales con la misma forma.                                                                 |");
+                            System.out.println("| -Orbital: cada una de las orientaciones posibles dentro de un subnivel.                                                        |");
+                            System.out.println("|     **Diferencia clave: el subnivel es un tipo de región (por ejemplo, p), y el orbital es una orientación                     |");
+                            System.out.println("|                                    específica dentro de ese tipo (px, py o pz).**                                              |");
+                            System.out.println("|________________________________________________________________________________________________________________________________|");
+                            System.out.println("|3. Diferencia entre nivel y orbital                                                                                             |");
+                            System.out.println("| -Nivel (n): categoría general de energía.                                                                                      |");
+                            System.out.println("| -Orbital: región concreta donde puede encontrarse un electrón.                                                                 |");
+                            System.out.println("|     **Diferencia clave: el nivel es la escala más amplia y energética; el orbital es la escala más específica y                |");
+                            System.out.println("|                                    espacial.**                                                                                 |");
+                            System.out.println("==================================================================================================================================");
                             esperarTecla();
                             break;
                         case 0:
@@ -864,13 +870,7 @@ public class Unidad2LDS {
                     break;
                 case 5:
                     break;
-                case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    break;
-                case 9:
+                case 0:
                     break;
                 default:
             }
@@ -908,9 +908,7 @@ public class Unidad2LDS {
                     break;
                 case 7:
                     break;
-                case 8:
-                    break;
-                case 9:
+                case 0:
                     break;
                 default:
             }
