@@ -190,7 +190,7 @@ public class Unidad2LDS {
             System.out.println("| 0.  Salir                                    |");
             System.out.println("------------------------------------------------");
             System.out.println("Selecciona una opcion                        ");
-            ;
+
             opcion = sc.nextInt();
 
             switch (opcion) {
@@ -809,7 +809,9 @@ public class Unidad2LDS {
                         case 0:
                             break;
                         default:
-                            System.out.println("Opción no válida.");
+                            System.out.println("=====================");
+                            System.out.println("| Opción no válida. |");
+                            System.out.println("=====================");
                     }
                     break;
                 case 2:
@@ -847,32 +849,89 @@ public class Unidad2LDS {
         int opcion;
         do {
             limpiarPantalla();
-            System.out.println("=======================================");
-            System.out.println("|        |");
-            System.out.println("=======================================");
-            System.out.println("|1.                 |");
-            System.out.println("|2.                |");
-            System.out.println("|3.                         |");
-            System.out.println("|4.                     |");
-            System.out.println("|0.                            |");
-            System.out.println("---------------------------------------");
-            System.out.println("|              |");
-            System.out.println("=======================================");
+            System.out.println("================================================================");
+            System.out.println("|    Estructura Atómica: Principio de Construcción (Aufbau)    |");
+            System.out.println("================================================================");
+            System.out.println("|1.Estado basal del átomo                                      |");
+            System.out.println("|2.Principio de exclusión de Pauli                             |");
+            System.out.println("|3.Principio de edificación progresiva (Aufbau)                |");
+            System.out.println("|4.Traslape energético                                         |");
+            System.out.println("|5.Bibliografía                                                |");
+            System.out.println("|0. Salir                                                      |");
+            System.out.println("================================================================");
+            System.out.println("|Elige una opción :                                            |");
+
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
+                    limpiarPantalla();
+                    System.out.println("===============================================================================================================================");
+                    System.out.println("|                                                    Estado basal del átomo                                                   |");
+                    System.out.println("===============================================================================================================================");
+                    System.out.println("| El estado basal de un átomo es su estado de energía más bajo posible, en el cual los electrones se                          |");
+                    System.out.println("| encuentran distribuidos en los orbitales disponibles siguiendo los principios de Aufbau, exclusión de Pauli y               |");
+                    System.out.println("| máxima multiplicidad, sin ocupar niveles de energía superiores.                                                             |");
+                    System.out.println("===============================================================================================================================");
+                    esperarTecla();
                     break;
                 case 2:
+                    limpiarPantalla();
+                    System.out.println("===============================================================================================================");
+                    System.out.println("|                                       Principio de exclusión de Pauli                                       |");
+                    System.out.println("===============================================================================================================");
+                    System.out.println("| El principio de exclusión de Pauli establece que no pueden existir dos electrones en un mismo átomo que     |");
+                    System.out.println("| posean los cuatro números cuánticos iguales. En un mismo orbital solo pueden coexistir dos electrones y     |");
+                    System.out.println("| deben diferir en su número cuántico de espín.                                                               |");
+                    System.out.println("===============================================================================================================");
+                    esperarTecla();
                     break;
                 case 3:
+                    limpiarPantalla();
+                    System.out.println("=====================================================================================================================");
+                    System.out.println("|                                Principio de edificación progresiva (Aufbau)                                       |");
+                    System.out.println("=====================================================================================================================");
+                    System.out.println("| El principio de edificación progresiva, o principio de Aufbau, establece que los electrones en un átomo           |");
+                    System.out.println("| ocupan los orbitales en orden creciente de energía, empezando por los de menor energía disponible. La             |");
+                    System.out.println("| configuración electrónica se construye llenando primero los niveles y subniveles más bajos antes de pasar a       |");
+                    System.out.println("| los superiores.                                                                                                   |");
+                    System.out.println("=====================================================================================================================");
+                    esperarTecla();
                     break;
                 case 4:
+                    limpiarPantalla();
+                    System.out.println("===============================================================================================================");
+                    System.out.println("|                                            Traslape energético                                              |");
+                    System.out.println("===============================================================================================================");
+                    System.out.println("| Ocurre cuando un subnivel de un nivel superior tiene menor energía que un subnivel de un nivel inferior.    |");
+                    System.out.println("| Por ejemplo, el 4s se llena antes que el 3d debido a su menor energía.                                      |");
+                    System.out.println("===============================================================================================================");
+                    esperarTecla();
                     break;
                 case 5:
+                    limpiarPantalla();
+                    System.out.println("========================================================================================");
+                    System.out.println("|                                    ===Bibliografía===                                |");
+                    System.out.println("========================================================================================");
+                    System.out.println("| Chang, R. (Química General). McGraw-Hill.                                            |");
+                    System.out.println("| Brown, T. L., LeMay, H. E., Bursten, B. E. (Química: La Ciencia Central). Pearson.   |");
+                    System.out.println("| Atkins, P., & Jones, L. (Principios de Química).                                     |");
+                    System.out.println("========================================================================================");
+                    esperarTecla();
                     break;
                 case 0:
+                    System.out.println("\n");
+                    System.out.println("===============");
+                    System.out.println("| Saliendo... |");
+                    System.out.println("===============");
+                    esperarTecla();
                     break;
                 default:
+                    System.out.println("\n");
+                    System.out.println("=====================");
+                    System.out.println("| Opción no válida. |");
+                    System.out.println("=====================");
+                    esperarTecla();
+
             }
         } while (opcion != 0);
     }
@@ -895,22 +954,88 @@ public class Unidad2LDS {
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
+                    limpiarPantalla();
+                    System.out.println("===============================================");
+                    System.out.println("|                   |");
+                    System.out.println("===============================================");
+                    System.out.println("|     |");
+                    System.out.println("|                              |");
+                    System.out.println("===============================================");
+                    esperarTecla();
                     break;
                 case 2:
+                    limpiarPantalla();
+                    System.out.println("===============================================");
+                    System.out.println("|                   |");
+                    System.out.println("===============================================");
+                    System.out.println("|     |");
+                    System.out.println("|                              |");
+                    System.out.println("===============================================");
+                    esperarTecla();
                     break;
                 case 3:
+                    limpiarPantalla();
+                    System.out.println("===============================================");
+                    System.out.println("|                   |");
+                    System.out.println("===============================================");
+                    System.out.println("|     |");
+                    System.out.println("|                              |");
+                    System.out.println("===============================================");
+                    esperarTecla();
                     break;
                 case 4:
+                    limpiarPantalla();
+                    System.out.println("===============================================");
+                    System.out.println("|                   |");
+                    System.out.println("===============================================");
+                    System.out.println("|     |");
+                    System.out.println("|                              |");
+                    System.out.println("===============================================");
+                    esperarTecla();
                     break;
                 case 5:
+                    limpiarPantalla();
+                    System.out.println("===============================================");
+                    System.out.println("|                   |");
+                    System.out.println("===============================================");
+                    System.out.println("|     |");
+                    System.out.println("|                              |");
+                    System.out.println("===============================================");
+                    esperarTecla();
                     break;
                 case 6:
+                    limpiarPantalla();
+                    System.out.println("===============================================");
+                    System.out.println("|                   |");
+                    System.out.println("===============================================");
+                    System.out.println("|     |");
+                    System.out.println("|                              |");
+                    System.out.println("===============================================");
+                    esperarTecla();
                     break;
                 case 7:
+                    limpiarPantalla();
+                    System.out.println("===============================================");
+                    System.out.println("|                   |");
+                    System.out.println("===============================================");
+                    System.out.println("|     |");
+                    System.out.println("|                              |");
+                    System.out.println("===============================================");
+                    esperarTecla();
                     break;
                 case 0:
+                    System.out.println("\n");
+                    System.out.println("===============");
+                    System.out.println("| Saliendo... |");
+                    System.out.println("===============");
+                    esperarTecla();
                     break;
                 default:
+                    System.out.println("\n");
+                    System.out.println("=====================");
+                    System.out.println("| Opción no válida. |");
+                    System.out.println("=====================");
+                    esperarTecla();
             }
         } while (opcion != 0);
     }
@@ -928,7 +1053,6 @@ public class Unidad2LDS {
     }
 
     public static void limpiarPantalla() {
-        // Solo estética
         for (int i = 0; i < 50; i++) System.out.println();
     }
 }
